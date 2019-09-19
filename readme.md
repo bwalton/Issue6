@@ -1,6 +1,7 @@
 Offending code is in the AppDelegate via the pod XLForms:
 
 `section = XLFormSectionDescriptor.formSectionWithTitle("Test Section")`
+
 `section.hidden = false`
 
 It crashes when setting `hidden` to really anything with the same issue:
@@ -27,4 +28,4 @@ etc etc
 XLFormSectionDescriptor code is at:
 `vendor/Pods/XLForm/XLForm/XL/Descriptors/XLFormSectionDescriptor.m`
 
-I used the `hidden` feature tons in 6.2 so I'm surprised it's all of a sudden an issue.
+I used the `hidden` feature tons in 6.2 so I'm surprised it's all of a suddenly an issue.
