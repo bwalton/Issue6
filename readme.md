@@ -1,8 +1,7 @@
 Offending code is in the AppDelegate via the pod XLForms:
 
-`section = XLFormSectionDescriptor.formSectionWithTitle("Test Section")`
-
-`section.hidden = false`
+- `section = XLFormSectionDescriptor.formSectionWithTitle("Test Section")`
+- `section.hidden = false`
 
 It crashes when setting `hidden` to really anything with the same issue:
 ```
