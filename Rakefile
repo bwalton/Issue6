@@ -93,7 +93,7 @@ Motion::Project::App.setup do |app|
   # app.entitlements['beta-reports-active'] = true
 
   app.pods do
-    pod 'XLForm', '4.0.1'
+    pod 'XLForm'
   end
 end
 
