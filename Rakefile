@@ -55,6 +55,7 @@ Motion::Project::App.setup do |app|
   app.interface_orientations = [:portrait]
   app.info_plist['UIRequiresFullScreen'] = true
   app.info_plist['ITSAppUsesNonExemptEncryption'] = false
+  app.vendor_project('vendor/RMHelper', :static)
 
   # ===========================================================================================
   # 6. To deploy to an actual device, you will need to create a developer certificate at:
