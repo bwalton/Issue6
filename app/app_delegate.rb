@@ -1,8 +1,6 @@
 class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
     rootViewController = TestViewController.alloc.init
-    # rootViewController.title = 'Issue5'
-    # rootViewController.view.backgroundColor = UIColor.whiteColor
 
     navigationController = UINavigationController.alloc.initWithRootViewController(rootViewController)
 
