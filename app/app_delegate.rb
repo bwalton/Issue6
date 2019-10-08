@@ -11,7 +11,7 @@ class AppDelegate
     @window.makeKeyAndVisible
 
     section = XLFormSectionDescriptor.formSectionWithTitle("Test Section")
-    section.hidden = false
+    RMHelper.set_hidden({ control: section, hidden_value: true })
 
     true
   end
