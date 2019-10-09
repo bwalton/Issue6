@@ -7,6 +7,8 @@ class TestViewController < XLFormViewController
 
     RMHelper.set_hidden({ control: section, hidden_value: true })
 
+    NSLog("Section is: %@", section.hidden)
+
     form_descriptor.addFormSection(section)
 
     super.initWithForm(form_descriptor)
